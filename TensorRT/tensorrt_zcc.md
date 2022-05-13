@@ -425,6 +425,3 @@ onnx计算图编辑工具
 1. FileNotFoundError: Could not find: cublas64_11.dll. Is it on your PATH?
 
    TensorRT版本与CUDA版本不匹配。由cublas64_**11**名字可知，安装的TensorRT版本用于CUDA11.x。
-
-2. AttributeError: 'tensorrt.tensorrt.Builder' object has no attribute 'max_workspace_size'
-3. 
